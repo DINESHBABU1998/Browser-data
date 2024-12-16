@@ -1,0 +1,25 @@
+{
+  "name": "webapp-metrics",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-metrics-otlp-http": "^0.56.0",
+    "@opentelemetry/sdk-metrics": "^1.29.0",
+    "@parcel/transformer-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.9.2",
+    "parcel": "^2.13.2"
+  }
+}
